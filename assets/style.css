@@ -1,0 +1,72 @@
+:root{
+    --headerThemeColor: rgb(5, 37, 43);
+    --headerSecondColor: rgb(0, 150, 167);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+body{
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: var(--headerThemeColor);    
+}
+
+header h1 {
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 50px;
+    color: var(--headerThemeColor);
+    background-color: var(--headerSecondColor);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;    
+}
+
+header li {
+    display: flex;
+    margin-right: 20px;    
+    align-items: center;
+    border-bottom: 3px solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: var(--headerSecondColor);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--headerSecondColor);
+}
+
+.sub-header{
+    display: flex;
+    background-image: url(./images/Header-image.png);
+    background-size: cover;
+    height: 175px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.sub-header h2 {
+    margin-right: 50px;
+    padding: 10px;
+    color: var(--headerThemeColor);
+    background-color: var(--headerSecondColor);
+}
