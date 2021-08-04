@@ -9,6 +9,10 @@
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
+body {
+    min-width: 657px;
+}
+
 header {
     display: flex;
     flex-shrink: 0;
