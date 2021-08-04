@@ -148,13 +148,10 @@ section {
 
 .project-1 {
     width: 90%;
-
     margin-left: 3%;
     margin-right: 6%;
     margin-bottom: 2%;
-    margin-top: 70px;
-    display: block;
-    
+    margin-top: 70px;    
 }
 
 .project-2 {
@@ -167,7 +164,7 @@ section {
 .project-3 {
     width: 44%;
     text-align: left;
-    margin-left: 2%;
+    margin-left: 1%;
     
 }
 
@@ -183,7 +180,7 @@ section {
 .project-5 {
     width: 44%;
     text-align: left;
-    margin-left: 2%;   
+    margin-left: 1%;   
     margin-top: 2%;
     margin-bottom: 30px;
 }
