@@ -18,7 +18,7 @@ header {
     background-color: var(--headerThemeColor);    
 }
 
-header h1 {
+header h2 {
     padding-left: 30px;
     padding-right: 10px;
     margin-top: 30px;
@@ -84,7 +84,7 @@ section {
     width: 100%;
 }
 
-#about-me h1 {
+#about-me h2 {
     border-right: 3px solid;
     margin-bottom: 0px;
     margin-top: 50px;
@@ -116,7 +116,7 @@ section {
     color: var(--headerThemeColor);   
 }
 
-#work h1 {
+#work h2 {
     border-right: 3px solid;
     width: 25%;
     margin-top: 50px;
@@ -217,7 +217,7 @@ section {
     align-items: center;
 }
 
-#contact-me h1 {
+#contact-me h2 {
     border-right: 3px solid;
     width: 25%;
     margin-bottom: 50px;
@@ -288,7 +288,7 @@ section {
         align-items: center;
     }
 
-    #about-me h1 {
+    #about-me h2 {
         border-right: 0;
         border-bottom: 3px solid;
         width: 50%;
@@ -296,7 +296,7 @@ section {
         font-size: 50px;
     }
 
-    #work h1 {
+    #work h2 {
         border-right: 0;
         border-bottom: 3px solid;
         width: 50%;
@@ -328,7 +328,7 @@ section {
         margin: 2%;
     }
 
-    #contact-me h1 {
+    #contact-me h2 {
         border-right: 0;
         border-bottom: 3px solid;
         width: 50%;
