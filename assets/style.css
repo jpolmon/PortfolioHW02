@@ -143,7 +143,7 @@ section {
 }
 
 #work .projects a {
-    position: relative;
+    /* position: relative; */
 }
 
 .project-1 {
@@ -246,6 +246,10 @@ section {
 
 @media screen and (max-width: 991px) {
 
+    body{
+        min-width: 991px;
+    }
+    
     header {
         
         flex-direction: column;
