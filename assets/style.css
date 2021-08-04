@@ -308,6 +308,12 @@ section {
         font-size: 50px;    
     }
 
+    .project-1 {
+        width: 96%;
+        text-align: center;
+        margin: 2%;
+    }
+
     .project-2 {
         width: 96%;
         text-align: center;
