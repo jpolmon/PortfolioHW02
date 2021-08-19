@@ -120,6 +120,10 @@ section {
     color: var(--headerThemeColor);   
 }
 
+#rec {
+    margin-top: 10px;
+}
+
 #work h2 {
     border-right: 3px solid;
     width: 25%;
@@ -132,8 +136,7 @@ section {
 
 #work .projects {
     width: 75%;
-    display: flex;
-    
+    display: flex;    
 }
 
 #work .projects ul {
@@ -142,8 +145,14 @@ section {
     text-align: center;
 }
 
-#work .projects a {
-    /* position: relative; */
+#work a {
+    position: relative;
+    text-decoration: none;
+}
+
+#work img {
+    border: solid var(--headerThemeColor);
+    border-radius: 3px;
 }
 
 .project-1 {
@@ -201,6 +210,23 @@ section {
 
 .projects a:hover .soon {
     visibility: visible;
+}
+
+.projects .repo {
+    color: var(--headerThemeColor);
+    background-color: var(--headerSecondColor);
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: -30px;
+    border: solid var(--headerThemeColor);
+}
+
+.projects .repo-left {
+    margin-right: 85px;
+}
+
+.projects .repo-right {
+    margin-left: 85px;
 }
 
 #contact-me {
@@ -326,6 +352,14 @@ section {
         width: 96%;
         text-align: center;
         margin: 2%;
+    }
+
+    #work .project .repo-left {
+        margin-right: 0;
+    }
+    
+    #work .project .repo-right {
+        margin-left: 0;
     }
 
     #contact-me h2 {
