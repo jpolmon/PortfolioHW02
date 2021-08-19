@@ -18,6 +18,4 @@ The site can be found at: https://jpolmon.github.io/PortfolioHW02/
 
 When visited the site should roughly appear as:  
 
-![Top third of the page](./assets/images/homepage-1.png)
-![Middle third of the page](./assets/images/homepage-2.png)
-![Bottom third of the page](./assets/images/homepage-3.png)
+![Website image](./assets/images/WebPageImage.png)
